@@ -1,0 +1,58 @@
+/* ---------- document ---------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- cos ---------- */
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  /* background: #000; */
+  /* background: linear-gradient(115deg, #000 0%, #2D2D2D 100%); */
+  /* min-height: 100vh; */
+  overflow-y: hidden;
+}
+
+
+.contenidor {
+  display: flex;
+  /* padding: 1.5em 1.25em; */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+}
+
+/* ---------- general ---------- */
+
+a {
+  text-decoration: none;
+  /* color: #fff; */
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+
+/* ---------- entrada ---------- */
+
+.entrada {
+  /* display: flex; */
+  /* flex-direction: column; */
+  min-width: 200px;
+  margin-bottom: 1.5em;
+}
+
+.entrada-titol {
+  text-transform: uppercase;
+}
+
+.entrada-enllaç {
+  color: gray;
+  font-size: 0.8em;
+}
