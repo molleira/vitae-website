@@ -9,12 +9,13 @@
 /* ---------- cos ---------- */
 
 body {
-  font-family: Arial, sans-serif;
-  color: white;
+  /* font-family: Arial, sans-serif; */
+  /* color: white; */
   /* background: #000; */
   /* background: linear-gradient(115deg, #000 0%, #2D2D2D 100%); */
   /* min-height: 100vh; */
-  overflow-y: hidden;
+  font-family: 'Mark Pro', monospace;
+  overflow: hidden;
 }
 
 
@@ -28,6 +29,11 @@ body {
 
 /* ---------- general ---------- */
 
+h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 a {
   text-decoration: none;
   /* color: #fff; */
@@ -38,6 +44,12 @@ a:hover {
   color: red;
 }
 
+/* ---------- titol ---------- */
+
+.titol {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* ---------- entrada ---------- */
 
@@ -48,9 +60,9 @@ a:hover {
   margin-bottom: 1.5em;
 }
 
-.entrada-titol {
+/* .entrada-titol {
   text-transform: uppercase;
-}
+} */
 
 .entrada-enllaç {
   color: gray;
