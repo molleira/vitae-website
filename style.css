@@ -18,6 +18,14 @@ body {
   overflow: hidden;
 }
 
+canvas {
+  position: fixed;
+  top: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: -1;
+}
+
 
 .contenidor {
   display: flex;
